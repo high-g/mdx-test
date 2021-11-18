@@ -1,3 +1,15 @@
+import style from './hello.module.css'
+
+export const str1 = 'mdx'
+export const str2 = `Hello ${str1}`
+
 # Hello, MDX!
 
 aaaaaaaaaaa
+
+<div>
+  <a href="https://www.google.com" target="_blank">
+    google {str2}
+  </a>
+  <p className={style.testCss}>test</p>
+</div>
