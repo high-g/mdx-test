@@ -1,5 +1,11 @@
+import Hello from './hello.mdx'
+
 const App = () => {
-  return <div className="App">test</div>
+  return (
+    <div>
+      <Hello />
+    </div>
+  )
 }
 
 export default App
