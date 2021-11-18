@@ -1,3 +1,4 @@
+import React from 'react'
 import Hello from './hello.mdx'
 
 const App = () => {
